@@ -1,0 +1,42 @@
+Enter an arithmetic expression   :  Input String: (a+b) +(2+3)/5 +7   *   9
+
+string length:25
+Input String after removing space: (a+b)+(2+3)/5+7*9   and lenght:17
+
+Accepted..!!!
+0 :goal->expr
+1 :expr->term expr2
+2 :term->factor term2
+3 :factor->( expr )
+4 :expr->term expr2
+5 :term->factor term2
+6 :factor->number | indentifier
+7 :term2->e
+8 : expr2 -> + term expr2 
+9 :term->factor term2
+10 :factor->number | indentifier
+11 :term2->e
+12 :expr2->e
+13 :term2->e
+14 : expr2 -> + term expr2 
+15 :term->factor term2
+16 :factor->( expr )
+17 :expr->term expr2
+18 :term->factor term2
+19 :factor->number | indentifier
+20 :term2->e
+21 : expr2 -> + term expr2 
+22 :term->factor term2
+23 :factor->number | indentifier
+24 :term2->e
+25 :expr2->e
+26 :term2->/factor term2
+27 :factor->number | indentifier
+28 :term2->e
+29 : expr2 -> + term expr2 
+30 :term->factor term2
+31 :factor->number | indentifier
+32 :term2->* factor term2
+33 :factor->number | indentifier
+34 :term2->e
+35 :expr2->e
